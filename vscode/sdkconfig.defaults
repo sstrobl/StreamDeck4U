@@ -1,0 +1,19 @@
+# Espressif IoT Development Framework (ESP-IDF) Project Minimal Configuration
+CONFIG_IDF_TARGET="esp32s3"
+
+# Nur 1 HID-Interface (Keyboard) benoetigt
+CONFIG_TINYUSB_HID_COUNT=1
+
+# USB-Massenspeicher (FAT) fuer die editierbare Konfigurationsdatei
+CONFIG_TINYUSB_MSC_ENABLED=y
+
+# MSC-Puffer muss mindestens der Wear-Levelling-Sektorgroesse entsprechen
+# (Default WL-Sektorgroesse ist 4096 Byte, MSC-Puffer-Default nur 512 Byte)
+CONFIG_TINYUSB_MSC_BUFSIZE=4096
+
+# ESP32-S3: USB als natives USB-OTG-Peripheriegeraet nutzen (nicht CDC-JTAG)
+CONFIG_TINYUSB_RHPORT_HS=n
+
+# Eigene Partitionstabelle mit FAT-Speicherpartition "storage"
+CONFIG_PARTITION_TABLE_CUSTOM=y
+CONFIG_PARTITION_TABLE_CUSTOM_FILENAME="partitions.csv"

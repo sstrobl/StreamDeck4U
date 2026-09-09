@@ -1,0 +1,15 @@
+{
+  "idf.currentSetup": "C:/Espressif/frameworks/esp-idf-v5.5.5/",
+  "idf.toolsPath": "C:/Espressif",
+  "idf.pythonBinPath": "C:/Espressif/python_env/idf5.5_py3.11_env/Scripts/python.exe",
+  "idf.customExtraVars": {},
+  "idf.adapterTargetName": "esp32s3",
+  "idf.portWin": "COM4",
+  "idf.flashType": "UART",
+  "clangd.path": "C:\\Espressif\\tools\\esp-clang\\esp-19.1.2_20250312\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=${workspaceFolder}/build"
+  ]
+}

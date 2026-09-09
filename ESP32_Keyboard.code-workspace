@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "ESP32_Keyboard (ESP-IDF)",
+      "path": "vscode"
+    },
+    {
+      "name": "Doku",
+      "path": "Doku"
+    }
+  ],
+  "settings": {}
+}
