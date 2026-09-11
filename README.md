@@ -140,5 +140,9 @@ idf.py -p COM3 build flash
 - Ggf. RGB-Feedback pro Taste (WS2812) ergänzen
 
 ## Weitere Dokumentation
-
 - [Doku/CBAA0046-041_DE.pdf](Doku/CBAA0046-041_DE.pdf) - Hardware-Datenblatt/Dokumentation
+- 
+## Keycaps
+Die Keycaps habe ich mit dem folgenden Keycap-Generator gemacht, sofern sie nicht konventionell genutzt werden, sind sie frei.
+https://vostoklabs.github.io/SVG-keycap-generator/
+
