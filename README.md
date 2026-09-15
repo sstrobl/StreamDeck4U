@@ -1,6 +1,8 @@
 # StreamDeck4U
 Ein Streamdeck auf Basis eines ESP32-S3, das seine Tasten über eine txt-Datei auf einer FAT Partition konfigurieren lässt.
 
+<img width="300" alt="grafik" src="https://github.com/user-attachments/assets/fc27323f-9d79-4315-ba52-b32aa06f3797" />
+
 ## Überblick
 
 StreamDeck4SW ist eine ESP32-S3-Firmware, die das Board als USB-HID-Tastatur am Host anmeldet. Neun digitale Eingänge (Taster gegen GND) werden auf Tastencodes gemappt und bei Betätigung als HID-Report gesendet - im Prinzip ein selbstgebautes Makro-Pad / Mini-Stream-Deck.
@@ -145,4 +147,3 @@ idf.py -p COM3 build flash
 ## Keycaps
 Die Keycaps habe ich mit dem folgenden Keycap-Generator gemacht, sofern sie nicht konventionell genutzt werden, sind sie frei.
 https://vostoklabs.github.io/SVG-keycap-generator/
-
